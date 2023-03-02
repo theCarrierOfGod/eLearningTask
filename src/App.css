@@ -1,0 +1,100 @@
+body {
+  font-family: 'Inter' !important;
+  overflow-x: hidden;
+}
+
+.eBtn {
+  border: 2px solid #000000;
+  border-radius: 100px;
+  line-height: 24px;
+  font-size: 12px;
+  padding: 6px 24px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.bg-elearn {
+  background: #00798C;
+  color: white;
+  border: none;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.hidOver {
+  overflow: hidden;
+}
+
+.ml-30 {
+  margin-left: 10px;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.go-left,
+.go-right {
+  width: 51px;
+  height: 51px;
+  border-radius: 100%;
+  background: linear-gradient(180deg, #555555 0%, #777777 100%);
+  border: none;
+}
+
+.go-left>.fa,
+.go-right>.fa {
+  color: white;
+  font-size: 35px;
+}
+
+.catTitle {
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.catText {
+  font-family: 'Raleway';
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.cat {
+  background: linear-gradient(180deg, #555555 0%, #777777 100%);
+  color: white;
+  border-radius: 15px !important;
+  border: none !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 290px !important;
+}
+
+.catFoot {
+  height: 45px;
+  background: white !important;
+  border-radius: 15px !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 100;
+}
+
+.eBtnT {
+  border: none;
+  width: 100px;
+  background: transparent;
+  line-height: 16px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.bottomMargin {
+  height: 50px;
+  width: 100%;
+}
